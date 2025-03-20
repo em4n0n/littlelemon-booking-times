@@ -56,7 +56,9 @@
   getBookings()
 
 
-  /*  Step 10: Part two */
+  document.getElementById('reservation_date').addEventListener('change', function() {
+    getBookings()
+  })
 
 
   function getBookings() {
